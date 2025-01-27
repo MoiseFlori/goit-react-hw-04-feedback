@@ -48,3 +48,12 @@
   font-weight: 500;
 }
 
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 20px;
+}
