@@ -18,10 +18,10 @@ const App = () => {
     }));
   };
 
-  const totalFeedback = good + neutral + bad;
+  const totalFeedback = state.good + state.neutral + state.bad;
 
   const positivePercentage =
-    totalFeedback === 0 ? 0 : Math.round((good / totalFeedback) * 100);
+    totalFeedback === 0 ? 0 : Math.round((state.good / totalFeedback) * 100);
 
   return (
     <div>
